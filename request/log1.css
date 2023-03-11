@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/home.jpg); */
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(img/home.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(251, 251, 251);
+    /* background: linear-gradient(to right, #bd194d, 3ffad06); */
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.button-box{
+    width: 240px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 10px rgb(218, 208, 208);
+    border-radius: 30px;
+}
+.tog-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 130px;
+    height: 100%;
+    /* background: linear-gradient(to right, #ff2a00, rgb(153, 212, 95)); */
+    /* background: rgb(250, 116, 183); */
+    background:  rgb(90, 154, 251);
+    border-radius: 30px;
+    transition: .5s;
+}
+.social-icon{
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icon img{
+    padding: 2px;
+    width: 30px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 0 rgb(189, 180, 180);
+    cursor: pointer;
+    border-radius: 45%;
+}
+.or{
+    margin-left: 45px;
+    padding-bottom: 10px;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid gray;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    /* background: linear-gradient(to right, #bd194d, yellow); */
+    background:  rgb(90, 154, 251);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box{
+    margin: 30px 10px 30px 50PX;
+}
+span{
+    /* color: red; */
+    font-size: 15px;
+    bottom: 68px;
+    position: absolute;
+}
+#log{
+    left: 50px;
+}
+#reg{
+    left: 450px;
+}
